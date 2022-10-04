@@ -1,0 +1,454 @@
+@media screen and (max-width: 365px) {
+
+  .index__section__flexizquierda__img1 img {
+    width: 100%;
+    height: 100%;
+    }
+  .index__section__flexizquierda__img2 img { 
+    width: 100%;
+    height: 100%;
+  }
+
+  .index__section__flexderecha__img img {
+    width: 100%;
+    height: 100%;    
+  }
+
+
+  .index__section__noticias__item img {
+    width: 100%;
+    height: 100%;    
+  }
+}
+
+
+
+@media screen and (min-width: 600px) {
+  
+  #body {
+    font-size: 30px;
+  }    
+
+    .header__contenido__logo__chico {
+      display: block;
+  }
+
+  .header__contenido__logo {
+    display: none;
+   
+  }
+
+    .header__contenido {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0%;
+    }
+  .header__contenido__lista ul {
+    display: flex;
+    justify-content: space-around;
+    }
+    .header__contenido__lista ul:hover {
+      color: blue;
+    }
+
+    .header__contenido__lista{
+       width: 100%;
+        }
+    
+      .header__fondo {
+      background-image: url(../IMG/Fondo\ chico.jpg);
+      background-repeat: no-repeat;
+    
+      }
+    
+    
+    
+
+}
+@media screen and (max-width: 600px) {
+      .header__fondo {
+        display: none;
+      }
+    }
+
+
+    @media screen and (max-width: 943px) {
+      .Noticias__noprincipal {
+        padding-top: 10%;
+        padding-bottom: 10%;
+      }
+    }
+
+
+    @media screen and (min-width: 1023px) {
+    
+
+     
+
+      
+      .index__section__color {
+        padding-left: 10%;
+      }
+
+      .index__section__nocolor {
+        padding-left: 10%;
+      }
+
+
+      .index__section__flexizquierda__parrafo1 {
+        margin-right: 10%;
+        padding-top: 15px;
+        margin-left: 0px;
+      
+        
+      }
+
+      .index__section__flexizquierda__parrafo1 p {
+
+        max-width: 613px;
+
+
+      }
+
+
+      .index__section__flexizquierda__parrafo2 {
+        margin-right: 10%;
+        padding-top: 15px;
+        margin-left: 0px;
+      
+      }
+
+      .index__section__flexizquierda__parrafo2 p {
+       max-width: 668px;
+      }
+
+
+      
+    
+
+      .index__section__tituloizquierda1 {
+        text-align: left; 
+        
+        padding-bottom: 0%;
+      }
+
+      .index__section__tituloizquierda2 {
+        text-align: left; 
+        padding-bottom: 0%;
+      }
+
+      .index__section__flexizquierda1 {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+      }
+      .index__section__flexizquierda2 {
+        display: flex;
+        align-items: center;
+      }
+
+      .index__section__colorgradientetobottom {
+          display: grid; 
+          grid-template-columns: 1fr 1fr 1fr 1fr; 
+          grid-template-rows: 90px 1fr 1fr; 
+          gap: 0px 0px; 
+          grid-template-areas: 
+            ". . titulo titulo"
+            "imagen imagen parrafo parrafo"
+            "imagen imagen parrafo parrafo"; 
+        }
+        .index__section__tituloderecha { grid-area: titulo; 
+        text-align: left;
+        padding-left: 23px;
+       }
+        .index__section__flexderecha__img { grid-area: imagen; }
+        .index__section__flexderecha__parrafo { grid-area: parrafo; }
+      
+   
+    
+   
+
+     
+    
+      
+  
+
+      
+      .index__section__flexizquierda__img1 {
+       
+      }
+
+      .index__section__flexizquierda__img2 {
+        margin-right: 5%;
+      }
+    
+
+      .index__section__noticias__lista {
+        display: none;
+      }
+
+
+      .index__section__flex__noticias {
+        display: flex;
+        gap: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        padding-top: 3%;
+        justify-content: center;
+    
+    
+      }
+
+      
+     .index__section__flex__noticias a {
+      text-decoration: none;
+      color: black;
+
+     }  
+
+     .index__section__flex__noticias__macadamia {
+      border: 1px outset #d0d0d0;
+      border-radius: 30px;
+      background-color: rgb(242, 247, 228);
+      padding: 30px 30px 0px 30px;
+      height: 400px;
+      width: 430px;
+     }
+
+     .index__section__flex__noticias__macadamia:hover {
+      box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+      transform: translateY(-15px);
+      transition: .5s;
+    }
+     
+
+     .index__section__flex__noticias__palta {
+      padding: 30px 30px 0px 30px;
+      border: 1px outset #d0d0d0;
+      border-radius: 30px;
+      background-color: rgb(242, 247, 228);
+      height: 400px;
+      width: 430px;
+    
+     }     
+     .index__section__flex__noticias__palta:hover {
+      box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+      transform: translateY(-15px);
+      transition: .5s;
+    }
+
+      .index__section__flex__noticias__limón {
+        display: none;
+        
+      }
+
+      .index__section__flex__noticias__limón:hover {
+        box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+        transform: translateY(-15px);
+        transition: .5s;
+      }
+    
+      .index__section__flex__noticias__palta p {
+        padding-top: 10px;
+        
+    
+      }
+     
+
+      .index__section__flex__noticias__macadamia p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+      } 
+      
+      .index__section__flex__noticias__limón p {
+        padding-top: 10px;
+      } 
+      
+      /* NOTICIAS */
+
+      
+
+      .Noticias__principal__CarbonProject {
+          display: grid; 
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+          grid-template-rows: auto auto auto auto auto auto auto; 
+          gap: 0px 0px; 
+          grid-template-areas: 
+          ". . . titulo titulo titulo titulo titulo titulo titulo . ."
+          ". . . .parrafo parrafo parrafo parrafo parrafo parrafo parrafo ."
+          "img2 img2 img2 img2 parrafo parrafo parrafo parrafo parrafo parrafo parrafo ."
+          "img2 img2 img2 img2 parrafo parrafo parrafo parrafo parrafo parrafo parrafo ."
+          "img2 img2 img2 img2 . . . . . . . ."
+          "img2 img2 img2 img2 img1 img1 img1 img1 img1 img1 img1 img1"
+          "img2 img2 img2 img2 img1 img1 img1 img1 img1 img1 img1 img1"; 
+          padding: 3% 3%;
+      }
+        
+
+        
+    
+
+    .Noticias__principal__CarbonProject__titulo {
+      grid-area: titulo;
+      max-width: 678px;
+      margin: auto;
+  
+      border-radius: 14px;
+      margin-left: 5%;
+    }
+    
+    .Noticias__principal__CarbonProject__parrafo {
+      grid-area: parrafo;
+      max-width: 748px;
+      margin: auto;
+      border-radius: 14px;
+      margin-left: 3%;
+    }
+    .Noticias__principal__CarbonProject__img1 {
+      grid-area: img1;
+      margin-left: 3%;
+      padding: auto;
+      text-align: left;
+     
+    }
+
+    .Noticias__principal__CarbonProject__img2 {
+      grid-area: img2;
+      margin-right: 5%;
+      
+     
+    }  
+
+
+    .Noticias__principal__CarbonProject__img1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    max-width: 718px;
+    max-height: 496px;
+   
+
+ 
+    }
+
+    
+   .Noticias__principal__CarbonProject__img2 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      display: block;
+    }
+   
+  
+    .Noticias__principal__PrimerosCultivosEnUruguay  {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: auto auto auto; 
+        gap: 10px 20px; 
+        grid-template-areas: 
+        ". . Titulo Titulo Titulo Titulo Titulo Titulo Titulo Titulo . ."
+        "Parrafo Parrafo Parrafo Parrafo Parrafo Parrafo Parrafo img img img img img"
+        ". . . img2 img2 img2 img2 img2 img2 . . .";
+        padding-bottom: 3%;
+    }
+
+     
+
+
+    .Noticias__principal__PrimerosCultivosEnUruguay__titulo {
+      grid-area: Titulo;
+      
+      
+    }
+
+
+    .Noticias__principal__PrimerosCultivosEnUruguay__parrafo {
+      grid-area: Parrafo;
+      margin-left: 3%;
+      
+    }
+
+    .Noticias__principal__PrimerosCultivosEnUruguay__img1 {
+      grid-area: img;
+      
+    }
+
+    .Noticias__principal__PrimerosCultivosEnUruguay__img1 img {
+      border-radius: 13%;
+    }
+
+    .Noticias__principal__PrimerosCultivosEnUruguay__img2 {
+      grid-area: img2;
+      padding-bottom: 3%;
+    }
+
+    .Noticias__principal__PrimerosCultivosEnUruguay__img2 img {
+      border-radius: 15px;
+      height: 100%;
+      width: 100%;
+      display: block;
+    }
+
+    
+/* Predios */    
+
+
+    
+
+} 
+
+
+
+ 
+
+    @media screen and (min-width: 1200px) {
+
+
+      .header__contenido__lista {
+        
+      }
+
+      .header__fondo {
+        background-image: url(../IMG/agriculture-g5fa2e4c4b_19203.jpg);
+        height: 150px;
+      }
+    
+      .index__section__flex__noticias {
+        justify-content: center;
+        gap: 20px;
+    
+
+
+    }
+     
+      
+
+      }
+
+
+
+
+    @media screen and (min-width: 1360px) {
+
+      .index__section__flex__noticias__limón {
+        display: flex;
+        padding: 30px 30px 0px 30px;
+      border: 1px outset #d0d0d0;
+      border-radius: 30px;
+      background-color: rgb(242, 247, 228);
+      height: 400px;
+      width: 430px;
+    }
+    
+
+   
+  
+  
+  }
+
+
+ 
+  

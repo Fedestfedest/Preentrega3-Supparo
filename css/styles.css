@@ -1,0 +1,516 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#header {
+    text-align:  center;
+    line-height: 140%;
+    font-family: sans-serif;
+}
+
+.header__contenido__logo {
+    display: none;
+}
+
+.header__contenido__logo{
+    align-items: center;
+}
+.header__contenido__lista__items {
+    padding-left: 0px;
+}
+
+
+
+
+.header__contenido {
+    background-color: rgb(42, 86, 61);
+    padding-bottom: 3%;
+
+}
+
+
+#header ul {
+    list-style: none;
+}
+
+
+#header a:hover {
+    color: blue;
+}
+
+#header a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+
+
+
+.header__fondo {
+    background-image: url(../IMG/agriculture-g5fa2e4c4b_19202.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#body {
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.espacioheaderbody {
+    background-color: rgb(42, 86, 61);
+    height: 20px;
+}
+
+.index__section {
+    text-align: center;
+    background-image: url(../IMG/linear-gradient\(rgba\ \(5\,7\,12\,\ 0\,75\)rgba\ \(5\,7\,12\,0\,75\)\);.png); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 5%;
+   
+}
+
+.index__section__color {
+    background-color: rgb(212, 246, 201)
+}
+
+
+.index__section__tituloizquierda1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.index__section__tituloizquierda2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: rgb(42, 86, 61);
+}
+
+.index__section__flexizquierda__parrafo1 {
+    padding-bottom: 5%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+
+
+.index__section__flexizquierda__parrafo2 {
+    padding-bottom: 5%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgba(51, 104, 1, 0.5)
+}
+
+.index__section__flexizquierda__img1 {
+    padding-bottom: 5%;
+}
+
+.index__section__flexizquierda__img2 {
+    padding-bottom: 5%;
+}
+
+.index__section__flexizquierda__img1 img {
+    border: 2px outset #d0d0d0;
+    border-radius: 30px;
+}
+
+.index__section__flexizquierda__img2 img {
+    border: 2px outset #d0d0d0;
+    border-radius: 30px;
+}
+
+.index__section__colorgradientetobottom {
+    padding-top: 5%;
+    background-image: linear-gradient(to bottom, rgb(212, 246, 201) , white);
+}
+
+
+   
+
+
+.index__section__nocolor {
+        padding-top: 5%;
+        
+}
+.index__section__tituloderecha {
+    padding-bottom: 5%;
+    padding-top: 5%;
+   
+   
+}
+
+.index__section__flexderecha__parrafo {
+    padding-bottom: 5%;
+    text-align: justify;
+    padding-right: 5%;
+    padding-left: 5%;
+   
+    
+    
+}
+
+.index__section__flexderecha__img {
+    margin-bottom: 5%;
+    
+}
+
+.index__section__flexderecha__img img {
+    border: 2px outset #d0d0d0;
+    border-radius: 30px;
+}
+
+
+.index__section__flex__noticias {
+    display: none;
+}
+
+.index__section__noticias {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5%;
+}
+.index__section__noticias__item {
+    background-color: rgb(232, 248, 214);
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
+    border-left: 1px outset #d0d0d0;
+    border-right: 1px outset #d0d0d0;
+    border-top:  1px outset #d0d0d0;
+    max-width: 457px;
+   
+}
+
+
+
+.index__section__noticias__item__parrafo {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: rgb(232, 248, 214);
+    margin-left: auto;
+    margin-right: auto;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+   
+    border-bottom: 1px outset #d0d0d0;
+    border-left: 1px outset #d0d0d0;
+    border-right: 1px outset #d0d0d0;
+    max-width: 457px;
+    
+
+}
+
+
+
+.index__section__noticias__lista a {
+    text-decoration: none;
+    color: black;  
+    
+}
+
+
+
+
+
+.footer {
+    background-color: rgb(42, 86, 61);
+ 
+    line-height: 300%;
+    font-size: 100%;
+    color: azure;
+    list-style: none;
+    text-align: left;
+    font-style: italic;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: azure;
+}
+.footer a:hover {
+    color: blue;
+}
+
+
+
+/* noticias */
+
+.Noticias__principal__CarbonProject {
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.Noticias__principal__CarbonProject__titulo {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(42, 86, 61);
+
+}
+
+.Noticias__principal__CarbonProject__parrafo {
+    padding-bottom: 3%;
+    color: rgba(51, 104, 1, 0.5);
+
+
+}
+
+.Noticias__principal__CarbonProject__img1 {
+    padding-bottom: 3%;
+}
+
+.Noticias__principal__CarbonProject__img1 img {
+    width: 70%;
+    height: 70%;   
+    border-radius: 15px;
+}
+    
+
+
+
+.Noticias__principal__CarbonProject__img2 img {
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    display: none;
+}
+
+
+
+.Noticias__principal__PrimerosCultivosEnUruguay {
+    text-align: center;
+
+   
+   
+}
+
+.Noticias__principal__PrimerosCultivosEnUruguay__titulo {
+    padding-bottom: 3%;
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(42, 86, 61);
+   
+
+
+}
+
+.Noticias__principal__PrimerosCultivosEnUruguay__parrafo {
+    padding-bottom: 3%;
+    color: rgba(51, 104, 1, 0.5);
+    padding-bottom: 3%;
+
+
+
+}
+  
+
+
+.Noticias__principal__PrimerosCultivosEnUruguay__img1 img {
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+
+}
+
+.Noticias__principal__PrimerosCultivosEnUruguay__img2 img {
+   display: none ;
+}
+
+
+.Noticias__noprincipal {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #efefef; 
+    flex-wrap: wrap;
+    }
+
+.Noticias__noprincipal p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+/* Nosotros */
+
+.nosotros__espacio {
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgb(212, 246, 201) , white);
+  }
+
+.nosotros__quienessomos {
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+.nosotros__quienessomos__titulo {
+   
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.nosotros__quienessomos__parrafo {
+    padding-top: 3%;
+}
+
+.nosotros__quienessomos__parrafo p {
+    max-width: 800px;
+    margin: auto;
+}
+
+#nosotros__presentación {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #efefef; 
+  flex-wrap: wrap;
+}
+
+.nosotros__tarjeta {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px 20px;
+}
+    
+.nosotros__tarjeta:hover {
+    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    transform: translateY(-15px);
+    transition: .5s;
+}
+
+.nosotros__tarjeta__head {
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.nosotros__tarjeta__circulo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #0b6f72;
+    bottom: 0%;
+}
+
+.nosotros__tarjeta__img{
+   width: 150px;
+   height: 150px;
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.nosotros__tarjeta__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.nosotros__tarjeta__descripción {
+ height: 60px;
+ padding: 40px 20px 20px 20px;
+ text-align: center;
+
+}
+
+.nosotros__tarjeta__descripción h3 {
+    color: rgb(42, 86, 61);
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+.nosotros__tarjeta__descripción h4 {
+    color: #1c5a5c;
+}
+
+/* Predio */
+
+.predio__ElEspinillar {
+    padding-bottom: 3%;
+}
+.predio__ElEspinillar__titulo1 {
+    padding-top: 5%;
+    text-align: center;
+    color: rgb(42, 86, 61);
+    padding-bottom: 1px;
+
+}
+
+.predio__ElEspinillar__parrafo1 {
+  padding-top: 1%;
+  text-align: center;
+  color: rgba(51, 104, 1, 0.5);
+  padding-bottom: 3%;
+}
+
+
+.predio__ElEspinillar__titulo2 {
+    text-align: center;
+    color: rgb(42, 86, 61);
+    padding-bottom: 1px;
+
+}
+
+.predio__ElEspinillar__parrafo2 {
+  padding-top: 1%;
+  text-align: center;
+  color: rgba(51, 104, 1, 0.5);
+  padding-bottom: 3%;
+}
+
+
+/* .predio__LaGranja {
+    background-color: #efefef; 
+    margin-bottom: 0px;
+    padding-bottom: 3%;
+}
+
+.predio__LaGranja__titulo {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.predio__LaGranja__parrafo {
+    text-align: center;
+    padding-top: 3%;
+    margin-bottom: 0px;
+  
+} */

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.index__section__noticias__item__parrafo {
+  margin-bottom: 30px;
+}
+
+.predio__LaGranja {
+  text-align: center;
+  padding-bottom: 5%;
+  background-color: #f7f7f7;
+}
+.predio__LaGranja .predio__LaGranja__titulo {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.predio__LaGranja .predio__LaGranja__cultivos {
+  padding-top: 10%;
+}
+
+@media screen and (min-width: 600px) {
+  .footer {
+    width: 100%;
+  }
+  .footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 636px) {
+  .noticias__noprincipal__PlantacióndePaltos {
+    width: 18rem;
+    height: 400px;
+    margin-left: 20px;
+  }
+  .noticias__noprincipal__PlantacióndeMacadamias {
+    width: 18rem;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .noticias__noprincipal__ingertación__LimónsinSemillas {
+    width: 18rem;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 3%;
+  }
+}
+@media screen and (min-width: 944px) {
+  .noticias__noprincipal__ingertación__LimónsinSemillas {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=main.css.map */
