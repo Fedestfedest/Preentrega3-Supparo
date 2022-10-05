@@ -45,10 +45,7 @@
   margin: auto;
 }
 
-#contacto {
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
+
 
 @media screen and (min-width: 600px) {
   .footer {
