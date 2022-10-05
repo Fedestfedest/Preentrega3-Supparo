@@ -5,35 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../sass/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../sass/main.css">
+    <script src="https://kit.fontawesome.com/ae1f9b52c5.js" crossorigin="anonymous"></script>
+
 </head>
-<body>
-<header id="header">
-    <div class="header__flex">
-        <div class="header__logo">
-            <a href="../index.html"><img src="./IMG/Salto grande fruits.png" alt=""></a>
+<body id="body">
+    <header id="header">
+        <div class="header__contenido">
+            <div class="header__contenido__logo">
+                <a href="../index.html"><img src="../IMG/Salto grande fruits.png" alt="Salto Grande Fruits"></a>
+            </div>
+            <div class="header__contenido__logo__chico">
+                <a href="../index.html"><img src="../IMG/Salto grande fruits chico.png" alt="Salto Grande Fruits"></a>
+            </div>
+            <nav class="header__contenido__lista">
+                <ul class="header__contenido__lista__items">
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./predio.html">Predios</a></li>
+                    <li><a href="./noticias.html">Noticias</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+    
+    
+                </ul>
+            
+            </nav>
         </div>
-        <nav class="header__lista-div">
-            <ul class="header__lista">
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./predio.html">Predios</a></li>
-                <li><a href="./noticias.html">Noticias</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-
-
-            </ul>
-        
-        </nav>
-    </div>
-<div class="header__fondo">
-    <img src="./IMG/Salto_grande_fruits-removebg-preview.png" alt="" class="imagenmovil">
-</div>
-
-</header>
+      
+    
+    </header>
+    
 
 
 
@@ -42,61 +51,41 @@
 </div>
 
 
-<main>
-        <h2>Envíanos un mensaje</h2>
-        
-        <Section id="body__formulario">
-            <form action="enviar.php" method="" enctype="" >
-                <div>
-                    <label for="Nombre">Nombre</label>
-                    <input type="text" id="Nombre" placeholder="Ingrese su nombre">
-                </div>
-    
-                <div>
-                    <Label>
-                        <form action="mail">Mail</form>
-                    </Label>
-                    <input type="email" id="mail" name="mail" required>
-             </div>
-        
-         
-                <div>
-                    <p>Mensaje</p>
-                    <label for="Comentarios"></label>
-                    <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
-                </div>
-        
-                <div>
-                    <label for="pais">País</label>
-                    <select name="" id="">
-                    <option value="1">Argentina</option>
-                    <option value="2">Uruguay</option>
-                    <option value="3">Chile</option>
-                    </select>
-                </div>
-        
-                <div class="body__formulario__envisr">
-                    <input type="submit" value="Enviar">
-         
-                </div>
-            </form>
-        </Section>
+<main id="contacto">
+      
 
-
+        <form>
+            <div class="mb-3 contacto__Email">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
 </main>
 
  <footer>
-    <div class="footer">
-        <ul>
-        <li><a href="./Contacto.html">Contactenos</a></li>
-        <li>Email: Saltograndfruits@gmail.com</li>
-        <li>Celular: +59899256171</li>
-    </ul>
-    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+            <li><a href="./Contacto.html">Contactenos</a></li>
+            <li><i class="fa-light fa-envelope"></i></li>
+            <li><i class="fa-solid fa-phone"></i></li>
+          </ul>
+        </div>
     
     
- </footer>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 

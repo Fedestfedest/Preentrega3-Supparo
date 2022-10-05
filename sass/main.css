@@ -16,6 +16,40 @@
   padding-top: 10%;
 }
 
+.nosotros__mision {
+  text-align: center;
+  padding-top: 5%;
+  background-color: #efefef;
+  padding-bottom: 3%;
+  line-height: 80px;
+}
+.nosotros__mision .nosotros__mision__titulo {
+  padding-bottom: 1%;
+}
+.nosotros__mision .nosotros__mision__parrafo {
+  max-width: 800px;
+  margin: auto;
+}
+
+.nosotros__vision {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  line-height: 80px;
+}
+.nosotros__vision .nosotros__vision__titulo {
+  padding-bottom: 1%;
+}
+.nosotros__vision .nosotros__vision__parrafo {
+  max-width: 800px;
+  margin: auto;
+}
+
+#contacto {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 @media screen and (min-width: 600px) {
   .footer {
     width: 100%;
@@ -49,5 +83,16 @@
 @media screen and (min-width: 944px) {
   .noticias__noprincipal__ingertación__LimónsinSemillas {
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__carrousel__parrafo1 {
+    font-size: 40px;
+  }
+  .header__carrousel__parrafo2 {
+    font-size: 40px;
+  }
+  .header__carrousel__parrafo3 {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
