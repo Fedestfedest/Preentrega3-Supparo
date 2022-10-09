@@ -13,7 +13,7 @@
   padding-bottom: 2%;
 }
 .predio__LaGranja .predio__LaGranja__cultivos {
-  padding-top: 10%;
+  padding-top: 3%;
 }
 
 .nosotros__mision {
@@ -45,13 +45,50 @@
   margin: auto;
 }
 
+.Noticias__noprincipal {
+  background-color: #efefef;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.Noticias__noprincipal h2 {
+  padding-bottom: 1%;
+}
 
+#contacto {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
 @media screen and (min-width: 600px) {
-  .footer {
+  .index__section .index__section__color .index__section__tituloizquierda1 h2 {
+    font-size: 50px;
+  }
+  .index__section .index__section__colorgradientetobottom .index__section__tituloderecha h2 {
+    font-size: 50px;
+  }
+  .index__section .index__section__nocolor .index__section__tituloizquierda2 h2 {
+    font-size: 50px;
+  }
+  .index__section .index__section__nocolor1 .index__section__noticias h2 {
+    font-size: 50px;
+  }
+  .index__section .Noticias__principal__CarbonProject__titulo h2 {
+    font-size: 50px;
+    padding-bottom: 5%;
+  }
+  .index__section .Noticias__principal__PrimerosCultivosEnUruguay__titulo h2 {
+    font-size: 50px;
+    padding-bottom: 5%;
+  }
+  .index__section .Noticias__noprincipal h2 {
+    font-size: 50px;
+    padding-bottom: 3%;
+  }
+  .index__section .footer {
     width: 100%;
   }
-  .footer ul {
+  .index__section .footer ul {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -73,11 +110,10 @@
   .noticias__noprincipal__ingertación__LimónsinSemillas {
     width: 18rem;
     height: 400px;
-    margin-left: 20px;
     margin-top: 3%;
   }
 }
-@media screen and (min-width: 944px) {
+@media screen and (min-width: 925px) {
   .noticias__noprincipal__ingertación__LimónsinSemillas {
     margin-top: 0px;
   }
