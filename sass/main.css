@@ -56,10 +56,57 @@
 }
 
 #contacto {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  background-image: url(../IMG/WhatsApp\ Image\ 2022-09-29\ at\ 2.26.15\ PM\ \(1\).jpeg);
+  height: 100vh;
+  width: 100wv;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+.contacto__formulario {
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.contacto__formulario h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contacto__formulario input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+.contacto__formulario textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  min-height: 100px;
+  max-height: 200px;
+}
+.contacto__formulario #boton {
+  background-color: #31384A;
+  color: #fff;
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .contacto__formulario {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 600px) {
   .index__section .index__section__color .index__section__tituloizquierda1 h2 {
     font-size: 50px;
@@ -73,22 +120,40 @@
   .index__section .index__section__nocolor1 .index__section__noticias h2 {
     font-size: 50px;
   }
-  .index__section .Noticias__principal__CarbonProject__titulo h2 {
+  .Noticias__principal__CarbonProject__titulo h2 {
     font-size: 50px;
     padding-bottom: 5%;
   }
-  .index__section .Noticias__principal__PrimerosCultivosEnUruguay__titulo h2 {
+  .Noticias__principal__PrimerosCultivosEnUruguay__titulo h2 {
     font-size: 50px;
     padding-bottom: 5%;
   }
-  .index__section .Noticias__noprincipal h2 {
+  .Noticias__noprincipal h2 {
     font-size: 50px;
     padding-bottom: 3%;
   }
-  .index__section .footer {
+  #nosotros__main .nosotros__mision .nosotros__mision__titulo h2 {
+    font-size: 50px;
+  }
+  #nosotros__main .nosotros__vision .nosotros__vision__titulo h2 {
+    font-size: 50px;
+  }
+  #nosotros__main .nosotros__valores .nosotros__valores__titulo h2 {
+    font-size: 50px;
+  }
+  #nosotros__main #nosotros__presentación .nosotros__presentación__titulo h2 {
+    font-size: 50px;
+  }
+  .body__cuerpo .predio__ElEspinillar .predio__ElEspinillar__titulo1 h2 {
+    font-size: 50px;
+  }
+  .body__cuerpo .predio__ElEspinillar .predio__ElEspinillar__titulo2 h2 {
+    font-size: 50px;
+  }
+  .footer {
     width: 100%;
   }
-  .index__section .footer ul {
+  .footer ul {
     display: flex;
     width: 100%;
     justify-content: space-around;

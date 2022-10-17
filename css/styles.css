@@ -370,12 +370,19 @@
 
 
 #nosotros__presentación {
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  min-height: 100vh;
-  background-color: #efefef; 
-  flex-wrap: wrap;
+    background-color: #efefef;
+    padding-top: 5%; 
+}
+
+.nosotros__presentación__titulo {
+    padding-bottom: 3%;
+}
+
+.nosotros__equipo {
+    display: flex; 
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .nosotros__tarjeta {
@@ -405,7 +412,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: #0b6f72;
+    background-color: rgb(42, 86, 61);
     bottom: 0%;
 }
 
@@ -458,6 +465,7 @@
     text-align: center;
     color: rgb(42, 86, 61);
     padding-bottom: 1px;
+    
 
 }
 
@@ -472,10 +480,16 @@
 .predio__ElEspinillar__titulo2 {
     text-align: center;
     color: rgb(42, 86, 61);
-    padding-bottom: 1px;
+    padding-bottom: 2%;
+
+    
 
 }
 
+.predio__ElEspinillar__titulo2 h2 {
+    padding-bottom: 1%;
+
+}
 .predio__ElEspinillar__parrafo2 {
   padding-top: 1%;
   text-align: center;
@@ -484,20 +498,3 @@
 }
 
 
-/* .predio__LaGranja {
-    background-color: #efefef; 
-    margin-bottom: 0px;
-    padding-bottom: 3%;
-}
-
-.predio__LaGranja__titulo {
-    text-align: center;
-    padding-top: 3%;
-}
-
-.predio__LaGranja__parrafo {
-    text-align: center;
-    padding-top: 3%;
-    margin-bottom: 0px;
-  
-} */

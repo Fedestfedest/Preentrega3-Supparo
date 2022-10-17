@@ -60,9 +60,62 @@
     }
 }
 
+
+
+
 #contacto {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    background-image: url(../IMG/WhatsApp\ Image\ 2022-09-29\ at\ 2.26.15\ PM\ \(1\).jpeg);
+   height: 100vh;
+   width: 100wv;
+   background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+.contacto__formulario {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    h2 {
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }    
+    textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+        min-height: 100px;
+        max-height: 200px;
+    }
+    #boton {
+        background-color: #31384A;
+        color: #fff;
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .contacto__formulario {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -112,6 +165,55 @@
         padding-bottom: 3%;
     }
 
+
+    #nosotros__main {
+        .nosotros__mision {
+          .nosotros__mision__titulo {
+                h2 {
+                font-size: 50px;
+            }
+        }
+    }
+        .nosotros__vision {
+            .nosotros__vision__titulo {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+        }
+        .nosotros__valores {
+          .nosotros__valores__titulo {
+            h2 {
+                font-size: 50px;
+            }
+          }  
+        }
+        #nosotros__presentación {
+            .nosotros__presentación__titulo {
+                h2 {
+                    font-size: 50px;
+                
+            }
+        }
+     }
+    }
+
+
+    .body__cuerpo {
+        .predio__ElEspinillar {
+            .predio__ElEspinillar__titulo1{
+            h2 {
+                font-size: 50px;
+             }
+            }  
+            .predio__ElEspinillar__titulo2 {
+              h2 {
+                font-size: 50px;
+              }
+            }
+        }
+    }
+
     .footer {
     width: 100%;
     ul {
@@ -126,7 +228,7 @@
     }
 }
 }
-}
+
 @media screen and (min-width: 636px) {
     .noticias__noprincipal__PlantacióndePaltos {
         width: 18rem; 
@@ -160,6 +262,7 @@
 }
 }
     
+
 
 @media screen and (min-width: 1200px) {
 .header__carrousel__parrafo1 {
