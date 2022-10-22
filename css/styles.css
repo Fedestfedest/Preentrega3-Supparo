@@ -81,7 +81,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 5%;
-   
+  
 }
 
 .index__section__color {
@@ -245,6 +245,9 @@
     font-style: italic;
     
 }
+.footer ul {
+    list-style: none;
+}
 
 .footer a {
     text-decoration: none;
@@ -376,6 +379,7 @@
 
 .nosotros__presentación__titulo {
     padding-bottom: 3%;
+    text-align: center;
 }
 
 .nosotros__equipo {
