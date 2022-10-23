@@ -21,6 +21,7 @@
 }
 .header__contenido__lista__items {
     padding-left: 0px;
+    padding-top: 15px;
 }
 
 
@@ -234,25 +235,6 @@
 
 
 
-.footer {
-    background-color: rgb(42, 86, 61);
- 
-    line-height: 300%;
-    font-size: 100%;
-    color: azure;
-    list-style: none;
-    text-align: left;
-    font-style: italic;
-    
-}
-.footer ul {
-    list-style: none;
-}
-
-.footer a {
-    text-decoration: none;
-    color: azure;
-}
 .footer a:hover {
     color: blue;
 }
@@ -379,6 +361,7 @@
 .nosotros__presentación__titulo {
     padding-bottom: 3%;
     text-align: center;
+    color: rgb(42, 86, 61);
 }
 
 .nosotros__equipo {

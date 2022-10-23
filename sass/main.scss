@@ -3,6 +3,27 @@
 .index__section__noticias__item__parrafo {
     margin-bottom: 30px;
 }
+
+.footer__grid {
+    background-color: rgb(42, 86, 61);
+    color: white;
+    font-size: 20px;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+.footer__logo {
+    padding-bottom: 5%;
+}
+
+.footer__contacto h2 {
+    padding-bottom: 2%;
+}
+.footer__contacto p {
+    line-height: 35px;
+    font-size: 14px;
+}
+
 .predio__LaGranja {
     text-align: center;
     padding-bottom: 5%;
@@ -14,6 +35,7 @@
 }
 .predio__LaGranja__cultivos {
     padding-top: 3%;
+    padding-bottom: 2%;
 }
 }
 
@@ -49,14 +71,27 @@
     line-height: 60px;
     .nosotros__vision__titulo {
         padding-bottom: 1%;
+        color: rgb(42, 86, 61);
     }
     .nosotros__vision__parrafo {
         max-width: 800px;
         margin: auto;
+        color: rgba(51, 104, 1, 0.581);
     }
 }
 
-
+.nosotros__valores {
+    .nosotros__valores__titulo {
+        h2 {
+          color: rgb(42, 86, 61);
+        }
+    }
+    .nosotros__valores__parrafo {
+        p {
+            color: rgba(51, 104, 1, 0.581);
+        }
+    }
+}
 
 .Noticias__noprincipal {
     background-color: #efefef; 
@@ -94,6 +129,7 @@
         margin: 0;
         font-size: 30px;
         margin-bottom: 20px;
+        padding-top: 10px;
 
     }
     input {
@@ -159,6 +195,38 @@
             }
         }
     }
+
+    .footer__grid {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 100px; 
+        grid-template-areas: 
+        ". footer__logo footer__contacto ."; 
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 0px;
+    }
+    .footer__logo { grid-area: footer__logo; }
+    .footer__logo img {
+        margin-top: 20px;
+    }
+    .footer__contacto { grid-area: footer__contacto;
+    padding-top: 20px;
+    }
+    
+    .footer__contacto h2 {
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    
+    .footer__contacto p {
+        line-height: 30px;
+        font-size: 14px;
+       
+    }
+    
+
     .Noticias__principal__CarbonProject__titulo h2 {
         font-size: 50px;
         padding-bottom: 5%;
@@ -221,6 +289,18 @@
               h2 {
                 font-size: 50px;
               }
+            }
+        }
+        .predio__LaGranja {
+            .predio__LaGranja__titulo {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+            .predio__LaGranja__cultivos {
+                h2 {
+                    font-size: 50px;
+                }
             }
         }
     }
