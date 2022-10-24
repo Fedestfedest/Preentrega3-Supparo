@@ -7,7 +7,7 @@
   background-color: rgb(42, 86, 61);
   color: white;
   font-size: 20px;
-  padding-left: 15%;
+  text-align: center;
   padding-bottom: 5%;
 }
 
@@ -146,6 +146,17 @@
 @media screen and (max-width: 480px) {
   .contacto__formulario {
     width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nosotros__fondo__vision {
+    background-image: none;
+  }
+  .nosotros__mision {
+    background-color: #efefef;
+  }
+  #nosotros__presentación {
+    background-color: #efefef;
   }
 }
 @media screen and (min-width: 600px) {
