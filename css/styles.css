@@ -54,7 +54,7 @@
 
 
 .header__fondo {
-    background-image: url(../IMG/agriculture-g5fa2e4c4b_19202.jpg);
+    background-image: url(../imagenes/agriculture-g5fa2e4c4b_19202.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@
 
 .index__section {
     text-align: center;
-    background-image: url(../IMG/linear-gradient\(rgba\ \(5\,7\,12\,\ 0\,75\)rgba\ \(5\,7\,12\,0\,75\)\);.png); 
+    background-image: url(../imagenes/linear-gradient\(rgba\ \(5\,7\,12\,\ 0\,75\)rgba\ \(5\,7\,12\,0\,75\)\);.png); 
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 5%;

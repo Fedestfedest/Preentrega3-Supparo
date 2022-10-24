@@ -57,7 +57,7 @@
         }
     
       .header__fondo {
-      background-image: url(../IMG/Fondo\ chico.jpg);
+      background-image: url(../imagenes/Fondo\ chico.jpg);
       background-repeat: no-repeat;
     
       }
@@ -415,7 +415,7 @@
       }
 
       .header__fondo {
-        background-image: url(../IMG/agriculture-g5fa2e4c4b_19203.jpg);
+        background-image: url(../imagenes/agriculture-g5fa2e4c4b_19203.jpg);
         height: 150px;
       }
     
