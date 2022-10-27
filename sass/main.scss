@@ -4,6 +4,10 @@
     margin-bottom: 30px;
 }
 
+footer {
+    background-color: rgb(42, 86, 61);
+}
+
 .footer__grid {
     background-color: rgb(42, 86, 61);
     color: white;
@@ -16,12 +20,57 @@
     padding-bottom: 5%;
 }
 
-.footer__contacto h2 {
-    padding-bottom: 2%;
-}
-.footer__contacto p {
-    line-height: 35px;
-    font-size: 14px;
+
+.footer__formulario {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+   
+    h2 {
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+
+    }
+    input {
+        width: 100%;
+        margin-bottom: 5px;
+       line-height: 40px;
+        font-size: 14px;
+        background-color: rgb(42, 86, 61);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+         border-color: white;
+         color: white;
+     
+     
+    }    
+    textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+        min-height: 100px;
+        max-height: 200px;
+        margin-top: 5px;
+        background-color: rgb(42, 86, 61);
+        color: white;
+    }
+    #boton {
+        background-color: rgb(42, 86, 61);
+        color: #fff;
+        border: none;
+       
+    }
+  
 }
 
 .predio__LaGranja {
@@ -31,17 +80,23 @@
     .predio__LaGranja__titulo {
         padding-top: 5%;
         padding-bottom: 2%;
+        color: rgb(42, 86, 61);
       
 }
+
+.predio__LaGranja__parrafo {
+    color: rgba(51, 104, 1, 0.581);;
+}
+
 .predio__LaGranja__cultivos {
     padding-top: 3%;
     padding-bottom: 2%;
+    color: rgba(51, 104, 1);
 }
 }
 
 .nosotros__mision {
     text-align: center;
-    padding-top: 5%;
     padding-bottom: 3%;
     line-height: 60px;
     .nosotros__mision__titulo {
@@ -58,7 +113,7 @@
 
 
 .nosotros__fondo__vision {
-    background-image: url(../imagenes/fondo\ nosotros.png);
+    background-image: url(../imagenes/Diseño\ sin\ título\ \(1\).png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
@@ -109,11 +164,12 @@
 
 #contacto {
     background-image: url(../imagenes/WhatsApp\ Image\ 2022-09-29\ at\ 2.26.15\ PM\ \(1\).jpeg);
-   height: 100vh;
+   height: 800px;
    width: 100wv;
    background-repeat: no-repeat;
-     background-attachment: fixed;
-   padding-top: 5%;
+    background-attachment: fixed;
+   padding-top: 7%;
+   
 }
 
 .contacto__formulario {
@@ -123,6 +179,8 @@
     padding: 10px 20px;
     box-sizing: border-box;
     border-radius: 7px;
+   
+   
     h2 {
         color: #fff;
         text-align: center;

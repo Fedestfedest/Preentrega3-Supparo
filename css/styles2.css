@@ -79,8 +79,7 @@
     @media screen and (min-width: 1023px) {
     
 
-     
-
+      
       
       .index__section__color {
         padding-left: 10%;
@@ -288,6 +287,7 @@
           "img2 img2 img2 img2 img1 img1 img1 img1 img1 img1 img1 img1"
           "img2 img2 img2 img2 img1 img1 img1 img1 img1 img1 img1 img1"; 
           padding: 3% 3%;
+  
       }
         
 
@@ -396,12 +396,24 @@
     }
 
     
-/* Predios */    
 
 
-    
+
+
+.nosotros__mision__titulo {
+  padding-top: 5%;
+}
+
+
+
+#contacto {
+padding-top: 7% !important;
+ 
+}
 
 } 
+
+
 
 
 
@@ -429,7 +441,7 @@
 
     }
      
-      
+  
 
       }
 
