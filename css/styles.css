@@ -82,6 +82,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 5%;
+    font-family: 'Baloo 2';
   
 }
 
@@ -243,6 +244,9 @@
 
 /* noticias */
 
+.noticias {
+    font-family: 'Baloo 2';
+}
 .Noticias__principal__CarbonProject {
     text-align: center;
     background-color: #f7f7f7;
@@ -342,6 +346,10 @@
 
 
 /* Nosotros */
+
+#nosotros__main {
+    font-family: 'Baloo 2';
+}
 
 .nosotros__espacio {
     height: 100px;
@@ -443,6 +451,10 @@
 
 /* Predio */
 
+.body__cuerpo {
+    font-family: 'Baloo 2';
+}
+
 .predio__ElEspinillar {
     padding-bottom: 3%;
 }
@@ -484,3 +496,8 @@
 }
 
 
+/* Contacto */
+
+#contacto {
+    font-family: 'Baloo 2';
+}
