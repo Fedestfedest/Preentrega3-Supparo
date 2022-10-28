@@ -100,7 +100,7 @@ footer {
 }
 
 .nosotros__fondo__vision {
-  background-image: url(../imagenes/Diseño\ sin\ título\ \(1\).png);
+  background-image: url(../imagenes/fondo\ nosotros1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
@@ -141,7 +141,7 @@ footer {
 }
 
 #contacto {
-  background-image: url(../imagenes/WhatsApp\ Image\ 2022-09-29\ at\ 2.26.15\ PM\ \(1\).jpeg);
+  background-image: url(../imagenes/fondo\ contacto.jpeg);
   height: 800px;
   width: 100wv;
   background-repeat: no-repeat;
